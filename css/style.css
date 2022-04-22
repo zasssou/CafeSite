@@ -39,14 +39,14 @@ dt {
 .button::before {
   top: 0;
   left: 0;
-  border-top: 1px solid #E03131;
-  border-left: 1px solid #E03131;
+  border-top: 1px solid #D17B28;
+  border-left: 1px solid #D17B28;
 }
 .button::after {
   bottom: 0;
   right: 0;
-  border-bottom: 1px solid #E03131;
-  border-right: 1px solid #E03131;
+  border-bottom: 1px solid #D17B28;
+  border-right: 1px solid #D17B28;
 }
 .button:hover::before, .button:hover::after {
   width: 100%;
@@ -95,7 +95,7 @@ dt {
   font-weight: bold;
   display: inline-block;
   padding-bottom: 17px;
-  border-bottom: 6px solid #E03131;
+  border-bottom: 6px solid #D17B28;
 }
 
 .location-info {

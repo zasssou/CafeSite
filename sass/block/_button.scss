@@ -23,15 +23,15 @@
   &::before {
     top: 0;
     left: 0;
-    border-top: 1px solid v.$red;
-    border-left: 1px solid v.$red;
+    border-top: 1px solid v.$accent;
+    border-left: 1px solid v.$accent;
   }
 
   &::after {
     bottom: 0;
     right: 0;
-    border-bottom: 1px solid v.$red;
-    border-right: 1px solid v.$red;
+    border-bottom: 1px solid v.$accent;
+    border-right: 1px solid v.$accent;
   }
   
   &:hover::before,
