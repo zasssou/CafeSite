@@ -1,0 +1,14 @@
+@use '../variables' as v;
+@use '../mixin' as m;
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 86px 20px 10px;
+
+  &__item {
+    width: 47%;
+    margin-bottom: 40px;
+  }
+}

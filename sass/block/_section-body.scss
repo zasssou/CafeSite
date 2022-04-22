@@ -1,0 +1,9 @@
+@use '../variables' as v;
+@use '../mixin' as m;
+
+.section-body {
+  width: 100%;
+  max-width: v.$max-width;
+  margin: 0 auto;
+  padding: 90px 16px 150px;
+}

@@ -1,0 +1,15 @@
+@use '../variables' as v;
+@use '../mixin' as m;
+
+.headline {
+  width: 100%;
+  text-align: center;
+
+  &__text-with-line {
+    font-size: 40px;
+    font-weight: bold;  
+    display: inline-block;
+    padding-bottom: 17px;
+    border-bottom: 6px solid v.$red;
+  }
+}

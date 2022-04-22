@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
   <link rel="stylesheet" href="css/style.css">
   <title>cafe</title>
 </head>
@@ -13,23 +14,23 @@
   <header class="header">
     <nav class="header__nav">
       <ul class="nav-list">
-        <li class="nav-list__item"><a href="#menu-section">MENU</a></li>
-        <li class="nav-list__item"><a href="#about-section">ABOUT</a></li>
-        <li class="nav-list__item"><a href="#location-section">LOCATION</a></li>
+        <li class="nav-list__item"><a href="#menu">MENU</a></li>
+        <li class="nav-list__item"><a href="#about">ABOUT</a></li>
+        <li class="nav-list__item"><a href="#location">LOCATION</a></li>
       </ul>
     </nav>
-    <h1 class="header__text">COFFEE</h1>
-    <img class="header__img" src="img/mainvisual.jpg" alt="main visual">
+    <div class="header__mainvisual" style="background-image: url('img/mainvisual.jpg');">
+      <h1 class="header__logo">COFFEE</h1>
+    </div>
   </header>
 
   <main>
-    <section id="menu-section">
-      <div class="section-title">
-        <h2 class="section-title__text">MENU</h2>
-        <img class="section-title__img" src="img/menu.jpg" alt="menu">
+    <section id="menu">
+      <div class="section-head" style="background-image: url('img/menu.jpg');">
+        <h2 class="section-head__logo">MENU</h2>
       </div>
 
-      <div class="menu">
+      <div class="section-body menu">
         <div class="menu__left-column">
           <div class="headline">
             <h3 class="headline__text-with-line">COFFEE</h3>
@@ -72,13 +73,12 @@
       </div>
     </section>
 
-    <section id=about-section>
-      <div class="section-title">
-        <h2 class="section-title__text">ABOUT</h2>
-        <img class="section-title__img" src="img/about.jpg" alt="menu">
+    <section id=about>
+      <div class="section-head" style="background-image: url('img/about.jpg');">
+        <h2 class="section-head__logo">ABOUT</h2>
       </div>
 
-      <div class="about">
+      <div class="section-body">
         <div class="headline">
           <h3 class="headline__text-with-line">COFFEE</h3>
         </div>
@@ -117,12 +117,11 @@
     </section>
 
     <section id="location-section">
-      <div class="section-title">
-        <h2 class="section-title__text">LOCATION</h2>
-        <img class="section-title__img" src="img/location.jpg" alt="menu">
+      <div class="section-head" style="background-image: url('img/location.jpg');">
+        <h2 class="section-head__logo">LOCATION</h2>
       </div>
 
-      <div class="location">
+      <div class="section-body">
         <div class="headline">
           <h3 class="headline__text-with-line">OUR STORE</h3>
         </div>
