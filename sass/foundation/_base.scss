@@ -1,0 +1,16 @@
+@use '../global/variables' as v;
+@use '../global/mixin' as m;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: v.$default-font-family;
+  font-size: v.$default-font-size;
+  line-height: v.$default-line-height;
+}
+
+dt {
+  font-weight: normal;
+}
