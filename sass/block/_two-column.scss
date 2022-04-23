@@ -1,15 +1,15 @@
 @use '../variables' as v;
 @use '../mixin' as m;
 
-.menu {
+.two-column {
   display: flex;
 
-  &__left-column {
+  &__left {
     width: 50%;
     border-right: 1px solid v.$black;
   }
 
-  &__right-column {
+  &__right {
     width: 50%;
     display: flex;
     flex-direction: column;

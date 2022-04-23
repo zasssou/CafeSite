@@ -114,20 +114,6 @@ dt {
   filter: none;
 }
 
-.menu {
-  display: flex;
-}
-.menu__left-column {
-  width: 50%;
-  border-right: 1px solid #000;
-}
-.menu__right-column {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .menu-list {
   width: 100%;
   display: flex;
@@ -154,7 +140,7 @@ dt {
   padding: 16px;
 }
 .nav-list__item {
-  margin-left: 24px;
+  margin-right: 24px;
   color: #fff;
   font-size: 14.4px;
   font-weight: bold;
@@ -182,6 +168,20 @@ dt {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
+}
+
+.two-column {
+  display: flex;
+}
+.two-column__left {
+  width: 50%;
+  border-right: 1px solid #000;
+}
+.two-column__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
