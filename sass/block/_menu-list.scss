@@ -21,3 +21,11 @@
     padding-top: 7px;
   }
 }
+
+@media screen and (max-width: v.$break-point) {
+  .menu-list {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+}

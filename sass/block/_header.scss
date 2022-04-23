@@ -25,5 +25,16 @@
     color: v.$white;
     font-size: 115px;
     font-weight: bold;
+    line-height: 150%;
+  }
+}
+
+@media screen and (max-width: v.$break-point) {
+  .header {
+    margin-bottom: 10px;
+
+    &__logo {
+      font-size: 84.5px;
+    }
   }
 }

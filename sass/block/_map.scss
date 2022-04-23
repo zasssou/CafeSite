@@ -13,3 +13,10 @@
     filter: none;
   }
 }
+
+@media screen and (max-width: v.$break-point) {
+  .map {
+    height: 407px;
+    margin-top: 25px;
+  }
+}
