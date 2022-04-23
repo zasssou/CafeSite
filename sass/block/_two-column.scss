@@ -1,0 +1,34 @@
+@use '../variables' as v;
+@use '../mixin' as m;
+
+.two-column {
+  display: flex;
+
+  &__left {
+    width: 50%;
+    border-right: 1px solid v.$black;
+  }
+
+  &__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: v.$break-point) {
+  .two-column {
+    display: inline;
+
+    &__left {
+      width: 100%;
+      border-right: none;
+    }
+
+    &__right {
+      width: 100%;
+      display: inline;
+    }
+  }
+}

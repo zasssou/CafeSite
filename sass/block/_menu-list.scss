@@ -1,0 +1,31 @@
+@use '../variables' as v;
+@use '../mixin' as m;
+
+.menu-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  padding-left: 55px;
+  padding-right: 45px;
+
+  &__product {
+    width: calc(100% - #{v.$price-text-width});
+    border-bottom: 1px dotted v.$black;
+    margin-bottom: 26px;
+  }
+
+  &__price {
+    text-align: right;
+    width: v.$price-text-width;
+    padding-top: 7px;
+  }
+}
+
+@media screen and (max-width: v.$break-point) {
+  .menu-list {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    padding: 0;
+  }
+}

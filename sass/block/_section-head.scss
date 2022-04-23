@@ -1,0 +1,27 @@
+@use '../variables' as v;
+@use '../mixin' as m;
+
+.section-head {
+  height: 300px;
+  @include m.flex-center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__logo {
+    color: v.$white;
+    font-size: 72px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: v.$break-point) {
+  .section-head {
+    height: 94px;
+
+    &__logo {
+      font-size: 32px;
+    }
+  }
+}
