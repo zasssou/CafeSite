@@ -1,14 +1,13 @@
-@use '../global/variables' as v;
-@use '../global/mixin' as m;
+@use '../global/index' as g;
 
 .section-body {
   width: 100%;
-  max-width: v.$max-width;
+  max-width: g.$max-width;
   margin: 0 auto;
   padding: 90px 16px 150px;
 }
 
-@media screen and (max-width: v.$break-point) {
+@media screen and (max-width: g.$break-point) {
   .section-body {
     max-width: none;
     margin: 0;

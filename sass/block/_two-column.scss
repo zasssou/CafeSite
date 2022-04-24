@@ -1,12 +1,11 @@
-@use '../global/variables' as v;
-@use '../global/mixin' as m;
+@use '../global/index' as g;
 
 .two-column {
   display: flex;
 
   &__left {
     width: 50%;
-    border-right: 1px solid v.$black;
+    border-right: 1px solid g.$black;
   }
 
   &__right {
@@ -17,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: v.$break-point) {
+@media screen and (max-width: g.$break-point) {
   .two-column {
     display: inline;
 

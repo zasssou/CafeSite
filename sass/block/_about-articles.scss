@@ -1,5 +1,4 @@
-@use '../global/variables' as v;
-@use '../global/mixin' as m;
+@use '../global/index' as g;
 
 .about-articles {
   display: flex;
@@ -17,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: v.$break-point) {
+@media screen and (max-width: g.$break-point) {
   .about-articles {
     margin: 32px 0 26px;
   

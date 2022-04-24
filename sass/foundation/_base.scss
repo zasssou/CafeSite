@@ -1,12 +1,11 @@
-@use '../global/variables' as v;
-@use '../global/mixin' as m;
+@use '../global/index' as g;
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: v.$default-font-family;
-  font-size: v.$default-font-size;
-  line-height: v.$default-line-height;
+  font-family: g.$default-font-family;
+  font-size: g.$default-font-size;
+  line-height: g.$default-line-height;
 }

@@ -1,5 +1,4 @@
-@use '../global/variables' as v;
-@use '../global/mixin' as m;
+@use '../global/index' as g;
 
 .button {
   display: block;
@@ -23,15 +22,15 @@
   &::before {
     top: 0;
     left: 0;
-    border-top: 1px solid v.$accent;
-    border-left: 1px solid v.$accent;
+    border-top: 1px solid g.$accent;
+    border-left: 1px solid g.$accent;
   }
 
   &::after {
     bottom: 0;
     right: 0;
-    border-bottom: 1px solid v.$accent;
-    border-right: 1px solid v.$accent;
+    border-bottom: 1px solid g.$accent;
+    border-right: 1px solid g.$accent;
   }
   
   &:hover::before,

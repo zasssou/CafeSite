@@ -1,5 +1,4 @@
-@use '../global/variables' as v;
-@use '../global/mixin' as m;
+@use '../global/index' as g;
 
 .menu-list {
   width: 100%;
@@ -10,19 +9,19 @@
   padding-right: 45px;
 
   &__product {
-    width: calc(100% - #{v.$price-text-width});
-    border-bottom: 1px dotted v.$black;
+    width: calc(100% - #{g.$price-text-width});
+    border-bottom: 1px dotted g.$black;
     margin-bottom: 26px;
   }
 
   &__price {
     text-align: right;
-    width: v.$price-text-width;
+    width: g.$price-text-width;
     padding-top: 7px;
   }
 }
 
-@media screen and (max-width: v.$break-point) {
+@media screen and (max-width: g.$break-point) {
   .menu-list {
     margin-top: 25px;
     margin-bottom: 12px;
