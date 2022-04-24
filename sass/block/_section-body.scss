@@ -1,0 +1,16 @@
+@use '../global/index' as global;
+
+.section-body {
+  width: 100%;
+  max-width: global.$max-width;
+  margin: 0 auto;
+  padding: 90px 16px 150px;
+}
+
+@media screen and (max-width: global.$break-point) {
+  .section-body {
+    max-width: none;
+    margin: 0;
+    padding: 33px 16px 80px;
+  }
+}

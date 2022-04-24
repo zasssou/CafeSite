@@ -1,0 +1,21 @@
+@use '../global/index' as global;
+
+.location-map {
+  width: 100%;
+  height: 400px;
+  margin-top: 73px;
+  margin-bottom: 22px;
+  filter:grayscale(100%);
+  transition: filter 0.5s;
+
+  &:hover {
+    filter: none;
+  }
+}
+
+@media screen and (max-width: global.$break-point) {
+  .location-map {
+    height: 407px;
+    margin-top: 25px;
+  }
+}

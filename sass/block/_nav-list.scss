@@ -1,0 +1,16 @@
+@use '../global/index' as global;
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 16px;
+
+  &__item {
+    margin-right: 24px;
+    color: global.$white;
+    font-size: 14.4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px global.$black-alpha;
+  }
+}

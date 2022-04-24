@@ -1,0 +1,33 @@
+@use '../global/index' as global;
+
+.two-column {
+  display: flex;
+
+  &__left {
+    width: 50%;
+    border-right: 1px solid global.$black;
+  }
+
+  &__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: global.$break-point) {
+  .two-column {
+    display: inline;
+
+    &__left {
+      width: 100%;
+      border-right: none;
+    }
+
+    &__right {
+      width: 100%;
+      display: inline;
+    }
+  }
+}
