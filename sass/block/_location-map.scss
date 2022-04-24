@@ -1,4 +1,4 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 .location-map {
   width: 100%;
@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: g.$break-point) {
+@media screen and (max-width: global.$break-point) {
   .location-map {
     height: 407px;
     margin-top: 25px;

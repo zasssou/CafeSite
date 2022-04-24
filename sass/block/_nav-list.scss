@@ -1,4 +1,4 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 .nav-list {
   display: flex;
@@ -8,9 +8,9 @@
 
   &__item {
     margin-right: 24px;
-    color: g.$white;
+    color: global.$white;
     font-size: 14.4px;
     font-weight: bold;
-    text-shadow: 1px 1px 2px g.$black-alpha;
+    text-shadow: 1px 1px 2px global.$black-alpha;
   }
 }

@@ -1,4 +1,4 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 .button {
   display: block;
@@ -22,15 +22,15 @@
   &::before {
     top: 0;
     left: 0;
-    border-top: 1px solid g.$accent;
-    border-left: 1px solid g.$accent;
+    border-top: 1px solid global.$accent;
+    border-left: 1px solid global.$accent;
   }
 
   &::after {
     bottom: 0;
     right: 0;
-    border-bottom: 1px solid g.$accent;
-    border-right: 1px solid g.$accent;
+    border-bottom: 1px solid global.$accent;
+    border-right: 1px solid global.$accent;
   }
   
   &:hover::before,

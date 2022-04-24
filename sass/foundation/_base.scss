@@ -1,11 +1,11 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: g.$default-font-family;
-  font-size: g.$default-font-size;
-  line-height: g.$default-line-height;
+  font-family: global.$default-font-family;
+  font-size: global.$default-font-size;
+  line-height: global.$default-line-height;
 }

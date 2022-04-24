@@ -1,13 +1,13 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 .section-body {
   width: 100%;
-  max-width: g.$max-width;
+  max-width: global.$max-width;
   margin: 0 auto;
   padding: 90px 16px 150px;
 }
 
-@media screen and (max-width: g.$break-point) {
+@media screen and (max-width: global.$break-point) {
   .section-body {
     max-width: none;
     margin: 0;

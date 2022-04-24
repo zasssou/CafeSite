@@ -1,21 +1,21 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 .section-head {
   height: 300px;
-  @include g.flex-center;
+  @include global.flex-center;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
   &__logo {
-    color: g.$white;
+    color: global.$white;
     font-size: 72px;
     font-weight: bold;
   }
 }
 
-@media screen and (max-width: g.$break-point) {
+@media screen and (max-width: global.$break-point) {
   .section-head {
     height: 94px;
 

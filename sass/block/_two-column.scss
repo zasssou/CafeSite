@@ -1,11 +1,11 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 .two-column {
   display: flex;
 
   &__left {
     width: 50%;
-    border-right: 1px solid g.$black;
+    border-right: 1px solid global.$black;
   }
 
   &__right {
@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (max-width: g.$break-point) {
+@media screen and (max-width: global.$break-point) {
   .two-column {
     display: inline;
 

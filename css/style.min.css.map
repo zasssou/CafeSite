@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.css","..\\sass\\foundation\\_reset.scss","$stdin"],"names":[],"mappings":"AASA,aCTA,YAAA,iBCUgC,CDVhC,SCU2C,CDV3C,MCUmD,CDVnD,WCUgE,CDVhE,WCU6E,CACvE,iBAAiB,CAAE,SAAS,CAAE,UDRpC,YAAA,IAEA,QAAA,MAAA,QAAA,IAAA,cAAA,IAGE,cAAA,IAAA,MAAA,KACA,QAAA"}
+{"version":3,"sources":["style.css","..\\sass\\block\\_about-articles.scss","$stdin"],"names":[],"mappings":"AASA,aCIE,YAAA,iBCH8B,CDG9B,SCHyC,CDGzC,MCHiD,CDGjD,WCH8D,CDG9D,WCH2E,CACvE,iBAAiB,CAAE,SAAS,CAAE,UFClC,YAAA,IACA,QAAA,MCKF,QAAA,IACE,cAAA,IDHA,cAAA,IAAA,MAAA,KACA,QAAA"}

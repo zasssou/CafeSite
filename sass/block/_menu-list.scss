@@ -1,4 +1,4 @@
-@use '../global/index' as g;
+@use '../global/index' as global;
 
 .menu-list {
   width: 100%;
@@ -9,19 +9,19 @@
   padding-right: 45px;
 
   &__product {
-    width: calc(100% - #{g.$price-text-width});
-    border-bottom: 1px dotted g.$black;
+    width: calc(100% - #{global.$price-text-width});
+    border-bottom: 1px dotted global.$black;
     margin-bottom: 26px;
   }
 
   &__price {
     text-align: right;
-    width: g.$price-text-width;
+    width: global.$price-text-width;
     padding-top: 7px;
   }
 }
 
-@media screen and (max-width: g.$break-point) {
+@media screen and (max-width: global.$break-point) {
   .menu-list {
     margin-top: 25px;
     margin-bottom: 12px;
